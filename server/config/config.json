@@ -1,0 +1,18 @@
+{
+  "development": {
+    "config_id": "development",
+    "node_port": 8080,
+    "database": "test",
+    "URI": "mongodb://localhost/test",
+    "JWT_secret": "hardpassword",
+    "JWT_expiry": "7d"
+  },
+  "production": {
+    "config_id": "production",
+    "node_port": 8080,
+    "database": "admin",
+    "URI": "mongodb://username:password@localhost:27017/admin",
+    "JWT_secret": "veryveryhardpassword",
+    "JWT_expiry": "1d"
+  }
+}
